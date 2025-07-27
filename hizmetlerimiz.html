@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hizmetlerimiz - 2A Yapı Mimarlık</title>
+    <meta name="description" content="2A Yapı - Mimarlık ve İnşaat Hizmetleri" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .hero {
+            background-color: #212529;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .section-title {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .card-icon {
+            font-size: 2rem;
+            color: #0d6efd;
+            margin-bottom: 15px;
+        }
+
+        .service-card {
+            border: none;
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .scroll-img {
+            height: 300px;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+
+        .scroll-img img {
+            height: 100%;
+            margin-right: 15px;
+            border-radius: 8px;
+        }
+
+        footer {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a class="navbar-brand" href="index.html">2A Yapı</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Anasayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog-home.html">Projeler</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Hakkımızda</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="hizmetlerimiz.html">Hizmetlerimiz</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Header -->
+    <div class="hero">
+        <h1>Hizmetlerimiz</h1>
+        <p class="lead">2A Yapı Mimarlık olarak sunduğumuz profesyonel hizmetler</p>
+    </div>
+
+    <!-- Mimarlık Hizmetleri -->
+    <section class="py-5 container">
+        <h2 class="section-title">Mimarlık Hizmetleri</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card service-card p-4 shadow-sm h-100">
+                    <div class="card-icon text-center"><i class="bi bi-file-earmark-text"></i></div>
+                    <h5 class="card-title text-center">Yapı Ruhsatı</h5>
+                    <p class="card-text text-center">İmar yönetmeliğine uygun yapı ruhsatı başvuru ve takip işlemleri.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card p-4 shadow-sm h-100">
+                    <div class="card-icon text-center"><i class="bi bi-lightbulb"></i></div>
+                    <h5 class="card-title text-center">Konsept Tasarım</h5>
+                    <p class="card-text text-center">Yaratıcı, özgün ve müşteri odaklı tasarımlar geliştiriyoruz.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card p-4 shadow-sm h-100">
+                    <div class="card-icon text-center"><i class="bi bi-rulers"></i></div>
+                    <h5 class="card-title text-center">Proje Tasarımı</h5>
+                    <p class="card-text text-center">Fonksiyonel ve estetik çözümleri birleştiren proje tasarımları.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card p-4 shadow-sm h-100">
+                    <div class="card-icon text-center"><i class="bi bi-vector-pen"></i></div>
+                    <h5 class="card-title text-center">Teknik Çizimler</h5>
+                    <p class="card-text text-center">Uygulamaya uygun teknik detayları içeren profesyonel çizimler.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card p-4 shadow-sm h-100">
+                    <div class="card-icon text-center"><i class="bi bi-house-heart"></i></div>
+                    <h5 class="card-title text-center">İç Mekan Tasarımı</h5>
+                    <p class="card-text text-center">Kullanım amacına uygun malzeme seçimi ve mobilya yerleşimi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Uygulama Hizmetleri -->
+    <section class="py-5 bg-light container">
+        <h2 class="section-title">Uygulama Hizmetleri</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card service-card p-4 shadow-sm h-100">
+                    <div class="card-icon text-center"><i class="bi bi-tools"></i></div>
+                    <h5 class="card-title text-center">Tadilat ve Onarım</h5>
+                    <p class="card-text text-center">Yapıların ihtiyaç duyduğu tüm tadilat ve onarım hizmetleri.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card p-4 shadow-sm h-100">
+                    <div class="card-icon text-center"><i class="bi bi-brush"></i></div>
+                    <h5 class="card-title text-center">Dekorasyon Hizmetleri</h5>
+                    <p class="card-text text-center">Estetik çözümlerle iç ve dış mekânlara hayat veriyoruz.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card p-4 shadow-sm h-100">
+                    <div class="card-icon text-center"><i class="bi bi-eye"></i></div>
+                    <h5 class="card-title text-center">Saha Uygulama Takibi</h5>
+                    <p class="card-text text-center">Saha aşamasında aktif kontrol ve koordinasyon hizmetleri.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card p-4 shadow-sm h-100">
+                    <div class="card-icon text-center"><i class="bi bi-key"></i></div>
+                    <h5 class="card-title text-center">Anahtar Teslim</h5>
+                    <p class="card-text text-center">Projelerinizi eksiksiz ve zamanında teslim ediyoruz.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card p-4 shadow-sm h-100">
+                    <div class="card-icon text-center"><i class="bi bi-kanban"></i></div>
+                    <h5 class="card-title text-center">Proje Yönetimi</h5>
+                    <p class="card-text text-center">Zaman, bütçe ve kalite kontrolü ile süreçlerinizi yönetiyoruz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Görseller -->
+    <section class="py-5 container">
+        <h2 class="section-title">Proje Uygulama Görselleri</h2>
+        <div class="scroll-img">
+            <img src="BHT.webp" alt="Proje 1">
+            <img src="BHT.webp" alt="Proje 2">
+            <img src="BHT.webp" alt="Proje 3">
+            <img src="BHT.webp" alt="Proje 4">
+            <img src="BHT.webp" alt="Proje 5">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <div class="small m-0">© 2025 2A Yapı Mimarlık Ofisi</div>
+                </div>
+                <div class="col-auto">
+                    <div class="text-white small">
+                        <strong>Adres:</strong> Mimarsinan Mah. Proje Cad. No:25, İstanbul<br />
+                        <strong>Telefon:</strong> +90 212 555 55 55<br />
+                        <strong>E-Posta:</strong> info@2ayapi.com
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

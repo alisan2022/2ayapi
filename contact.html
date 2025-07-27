@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="2A Yapı - İletişim Sayfası" />
+    <meta name="author" content="2A Yapı" />
+    <title>İletişim | 2A Yapı</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        body {
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+        }
+
+        .contact-card {
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: #0d6efd;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .contact-detail {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        iframe.map-frame {
+            border: 6px solid #0d6efd;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .section-title {
+            font-weight: 700;
+            font-size: 32px;
+            color: #0c1c3a;
+        }
+
+        .section-subtext {
+            color: #6c757d;
+        }
+
+        .text-muted a {
+            color: #0d6efd;
+            text-decoration: none;
+        }
+
+        .text-muted a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column h-100">
+<main class="flex-shrink-0">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a class="navbar-brand" href="index.html">2A Yapı</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Anasayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog-home.html">Projeler</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Hakkımızda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hizmetlerimiz.html">Hizmetlerimiz</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="py-5">
+        <div class="container px-5">
+            <div class="row gx-5">
+                <div class="col-lg-6 mb-4">
+                    <div class="contact-card">
+                        <h2 class="section-title mb-4">Bize Ulaşın</h2>
+                        <p class="section-subtext mb-4">Projeleriniz hakkında konuşmak için bizimle iletişime geçin.</p>
+                        <div class="contact-detail">
+                            <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                            <div><strong>Adres:</strong><br>Mimarsinan Mah. Proje Cad. No:25, İstanbul</div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+                            <div><strong>Telefon:</strong><br><a href="tel:+902125555555">+90 212 555 55 55</a></div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+                            <div><strong>E-posta:</strong><br><a href="mailto:info@2ayapi.com">info@2ayapi.com</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <iframe class="map-frame w-100" style="height: 400px;" loading="lazy" allowfullscreen
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12034.566280812526!2d28.978358!3d41.008238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9aa2cd95b75%3A0x5566edfc5ebd9f49!2sFatih%2C%20%C4%B0stanbul!5e0!3m2!1str!2str!4v1621600896522!5m2!1str!2str">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark py-4 mt-auto">
+    <div class="container px-5">
+        <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+            <div class="col-auto">
+                <div class="small m-0 text-white">© 2025 2A Yapı Mimarlık Ofisi</div>
+            </div>
+            <div class="col-auto">
+                <div class="text-white small">
+                    <a class="text-white text-decoration-none" href="mailto:info@2ayapi.com">info@2ayapi.com</a>
+                    &nbsp;|&nbsp;
+                    <a class="text-white text-decoration-none" href="tel:+902125555555">+90 212 555 55 55</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

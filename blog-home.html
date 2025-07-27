@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="2A Yapı - Mimarlık ve İnşaat Çözümleri" />
+    <meta name="author" content="2A Yapı" />
+    <title>2A Yapı | Mimarlık ve Yapı Tasarımı</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        h2.fw-bold.text-center.mb-5 {
+            font-size: 3rem;
+            /* Daha büyük */
+            font-weight: 700;
+            /* Kalın */
+            position: relative;
+            letter-spacing: 2px;
+            /* Harf aralığı */
+            margin-bottom: 2rem !important;
+            color: inherit;
+            /* Var olan renk */
+        }
+
+        h2.fw-bold.text-center.mb-5::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 4px;
+            background-color: #0d6efd;
+            /* Bootstrap’ın mavi tonu */
+            margin: 0.5rem auto 0;
+            border-radius: 2px;
+        }
+
+        .project-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            background-color: #dee2e6;
+        }
+
+        .project-box {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .project-box:hover {
+            transform: scale(1.02);
+        }
+
+        /* Siyah olan kısmı ilk bölüm yapalım */
+        .py-5.bg-light {
+            background-color: #212529 !important;
+            /* section-dark rengini veriyoruz */
+            color: white;
+        }
+
+        .py-5.bg-light .btn-outline-primary {
+            border-color: white;
+            color: white;
+        }
+
+        .py-5.bg-light .btn-outline-primary:hover {
+            background-color: white;
+            color: #212529;
+        }
+
+        .py-5.bg-light .project-box {
+            background-color: #343a40;
+        }
+
+        /* Beyaz olan kısmı ikinci bölüm yapalım */
+        .section-dark {
+            background-color: #f8f9fa !important;
+            /* önceki bg-light rengini veriyoruz */
+            color: #212529;
+        }
+
+        .section-dark .btn-outline-primary {
+            border-color: #0d6efd;
+            color: #0d6efd;
+        }
+
+        .section-dark .btn-outline-primary:hover {
+            background-color: #0d6efd;
+            color: white;
+        }
+
+        .section-dark .project-box {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html">2A Yapı</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Anasayfa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog-home.html">Projeler</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Hakkımızda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="hizmetlerimiz.html">Hizmetlerimiz</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">İletişim</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Projeler Beyaz Kısım -->
+        <section class="py-5 bg-light">
+            <div class="container px-5">
+                <h2 class="fw-bold text-center mb-5">Projelerimiz</h2>
+                <p class="lead text-center mb-5 text-secondary">
+                    2A Yapı olarak projelerimizin her aşamasında titizlikle çalışıyor, profesyonel mimari çizim ve
+                    uygulamalarla yüksek standartlarda işler ortaya koyuyoruz. Tamamlanmış ve devam eden projelerimizi
+                    aşağıda inceleyebilirsiniz.
+                </p>
+                <div class="project-box">
+                    <img class="project-img" src="BHT.webp" alt="Tamamlanan Projeler" />
+                    <div class="p-4">
+                        <h3 class="fw-bold">Tamamlanan Projeler</h3>
+                        <p>
+                            Yüksek kalite standartlarında tamamladığımız projelerimiz, estetik ve işlevselliği bir arada
+                            sunmaktadır. Her projede detaylara gösterdiğimiz özen, müşteri memnuniyetini ön planda
+                            tutmamızın bir göstergesidir.
+                        </p>
+                        <a href="portfolio-overview.html" class="btn btn-outline-primary">Detayları Gör</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projeler Siyah Kısım -->
+        <section class="py-5 section-dark">
+            <div class="container px-5">
+                <div class="project-box">
+                    <img class="project-img" src="interior-design-concept-5-jpg.webp" alt="Devam Eden Projeler" />
+                    <div class="p-4">
+                        <h3 class="fw-bold">Devam Eden Projeler</h3>
+                        <p>
+                            Hâlen yürütmekte olduğumuz projelerimizde modern mimari çözümler ve yenilikçi teknikler
+                            kullanıyoruz. Süreci şeffaf şekilde yönetiyor ve her aşamada kaliteyi garanti ediyoruz.
+                        </p>
+                        <a href="devam-eden-projeler.html" class="btn btn-outline-primary">Detayları Gör</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <div class="small m-0 text-white">© 2025 2A Yapı Mimarlık Ofisi</div>
+                </div>
+                <div class="col-auto">
+                    <div class="text-white small">
+                        <strong>Adres:</strong> Mimarsinan Mah. Proje Cad. No:25, İstanbul<br>
+                        <strong>Telefon:</strong> +90 212 555 55 55<br>
+                        <strong>E-Posta:</strong> info@2ayapi.com
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
